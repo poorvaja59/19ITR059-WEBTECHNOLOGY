@@ -1,0 +1,63 @@
+<html>
+<head>
+<title>Participant Details</title>
+</head>
+<h4> EVENT REGISTRATION</h3>
+<h3><body>
+<form method="get">
+<table>
+<tr>
+<td>NAME:</td>
+<td><input type="text" name="participant_name" placeholder="Enter your name" pattern="[A-Z a-z]"/></td>
+</tr>
+<tr>
+<td>DATE OF BIRTH:</td>
+<td><input type="date" name="DOB" placeholder="enter your DOB"/></td>
+</tr>
+<tr>
+<td>GENDER:</td>
+<td><input type="radio" name="gender" value="male"/>Male
+<input type="radio" name="gender" value="female"/>Female
+<input type="radio" name="gender" value="other"/>Other
+</td>
+</tr>
+<tr>
+<td>EMAIL ID:</td>
+<td><input type="email" name="email" placeholder="Enter your mail id"/></td>
+</tr>
+<tr>
+<td>MOBILE NUMBER:</td>
+<td><input type="text" name="mobile_number" placeholder="Enter your number" pattern="[0-9]" length="{12}"/></td>
+</tr>
+<tr>
+<td>ADDRESS:</td>
+<td><textarea name="address" placeholder="Enter your address"></textarea></td>
+</tr>
+<tr>
+<td>STATE:</td>
+<td><input type="text" name="state" placeholder="Enter your state"/></td>
+</tr>
+<tr>
+<td>PIN CODE:</td>
+<td><input type="text" name="pincode" placeholder="Enter your pincode" pattern="[0-9]" min="1" max="6"/></td>
+</tr>
+<tr>
+<td>EVENTS INTRESTED:</td>
+<td><input type="checkbox" name="event" value="paper presentation"/>Paper Presentation
+<input type="checkbox" name="event" value="crack the code"/>Crack the Code
+<input type="checkbox" name="event" value="web-o-thon"/>Web-O-Thon
+</tr>
+<tr>
+<td>ACCOMMPDATION REQUIRED:</td>
+<td><input type="radio" name="accomodation" value="Yes"/>YES
+<input type="radio" name="accomodation" value="No"/>NO
+</td>
+<tr>
+<td><input type="reset" name="reset"></td>
+<td><input type="submit" name="sumbit"></td>
+</tr>
+</h3>
+</table>
+</form>
+</body>
+</html>
