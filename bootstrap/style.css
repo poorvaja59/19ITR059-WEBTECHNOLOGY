@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kaisei Tokumin', serif;;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 4rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.8);
+    background-color:black;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: #F9AA2B !important;
+}
+#navbarSupportedContent{
+    color: #F9AA2B !important;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent button{
+    background-color: #F9AA2B !important;
+    width: 150px;
+    border-radius: 15px;   
+}
+section{
+    width: 100%;
+    min-height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+    background:url("bg1.jpg");
+    background-size:cover;
+    background-position: center;
+    flex-direction: column;
+}
+#home h1{
+    font-size: 100px;
+    color: #ffff;
+    letter-spacing: 2px;
+}
+#home p{
+    color: cornsilk;
+}
+#home .input-group{
+    width: 40%;
+    height:45px;
+}
+.signin{
+    background-color: darkorange !important;
+    color: #ffff !important;
+}
+.signin:hover{
+    text-decoration: none !important;
+    transition-property: none;
+}
+#about h1{
+    font-weight: 800;
+    font-size: 50px;
+    color:black;
+}
+#about p{
+    font-weight: 250;
+    font-size: 25px;
+    color: purple;
+}
+#product{
+    background: gainsboro;  
+}
+#product h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+#product img{
+    width: 30 0px;
+    height: 200px;
+}
+.card{
+    width: 300px;
+    height: 300px;
+    background: gainsboro !important;
+    border: none !important;
+    box-shadow: 9px 9px 10px rgba(0, 0, 0, 0.8),
+                inset 4px 4px 10px #ffff;
+    border-radius: 10px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+}
+.card:hover{
+    box-shadow: inset 15px 20px 20px rgba(0, 0, 0, 0.8),
+ 4px 4px 10px #ffff;   
+}
+.container h1{
+    text-align: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 630px;
+    height: 419px;
+    padding-right: 10px;
+  }
+  footer{
+    background-color: rgb(0, 0, 0);
+}
+footer .pages {
+    text-align:center;
+    width: 25%;
+}
+footer .pages h3{
+    color:rgb(152, 157, 158);
+    font-size:20px;
+    font-family:cosmic,sans-serif;
+    padding:5px;
+}
+footer .pages a{
+    text-decoration:none;
+    padding: 0px 10px;
+    color:white;
+    font-size:15px;
+    font-family:cosmic,sans-serif;
+    border-right: 1px solid white;
+}
+footer .pages a:hover{
+    color:yellow;
+}
+footer .doc {
+    text-align:center;
+    width: 45%;
+}
+footer .doc h3{
+    color:rgb(187, 182, 182);
+    font-size:20px;
+    font-family:cosmic,sans-serif;
+    padding:5px;
+}
+footer .doc a{
+    text-decoration:none;
+    padding:0px 10px;
+    color:white;
+    font-size:15px;
+    font-family:cosmic,sans-serif;
+    border-right: 1px solid white;
+}
+footer .doc a:hover{
+    color:greenyellow;
+}
+footer .social {
+    text-align:center;
+    width: 15%;
+}
+footer .social h3{
+    color:rgb(177, 170, 170);
+    font-size:20px;
+    font-family:cosmic,sans-serif;
+    padding:5px;
+}
+
+
+footer .social a{
+    margin: 10px;
+    font-size: large;
+}
+footer .social a:hover{
+    color:blue;
+}
+footer .contact {
+    text-align:center;
+    width: 10%;
+}
+footer .contact h3{
+    color:rgb(177, 172, 172);
+    font-size:20px;
+    font-family:cosmic,sans-serif;
+    padding:5px;
+}
+footer .contact a{
+    margin:10px;
+    font-size: large;
+}
+footer .contact a:hover{
+    color:blue;
+}
+.about_bg
+{
+    background-image: url('p1.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.fe_bg
+{
+    background-image: url('p2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;  
+}
+
