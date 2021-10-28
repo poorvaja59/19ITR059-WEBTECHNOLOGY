@@ -1,0 +1,64 @@
+<html>
+  <head>
+  <style>
+  body{
+  background-image:url("cgpa1.jpg");
+  background-repeat:no-repeat;
+ background-size:100% 100%;
+  }
+	td{
+	color:black;
+	font-size:20px;
+	}
+	h2
+	{
+	color:brown;
+	margin-top:50px;
+	}
+	a{
+	text-decoration:none;
+	color:cornflowerblue;
+	}
+	</style>
+        <title>CGPA CALCULATION</title>
+        <script language="javascript">
+		         a=8+"8";
+				 document.write(a);
+                function calculate()
+                {
+                        var val1 = parseInt(document.getElementById("value1").value);
+                        var val2 = parseInt(document.getElementById("value2").value);
+						var val3 = parseInt(document.getElementById("value3").value);
+                        var val4 = parseInt(document.getElementById("value4").value);
+						var val5 = parseInt(document.getElementById("value5").value);
+                        var val6 = parseInt(document.getElementById("value6").value);
+						var val7 = parseInt(document.getElementById("value7").value);
+                        var val8 = parseInt(document.getElementById("value8").value);
+                        var ansD = document.getElementById("answer");
+                        ansD.value = (val1 + val2+val3+val4+val5+val6+val7+val8)/8;
+                }
+				
+        </script>
+  </head>
+  <body>
+  <center><h2>CGPA CALCULATION</h2></center>
+  <center>
+  
+  <table cellpadding=12>
+        <form>
+        <tr><td><a href="gpa.html">1st SEMESTER</a></td><td> <input type="text" id="value1" name="value1" value=""/></td>
+        <tr><td><a href="gpa.html">2nd SEMESTER</a></td><td><input type="text" id="value2" name="value2" value=""/></td>
+		<tr><td><a href="gpa.html">3rd SEMESTER</a></td><td><input type="text" id="value3" name="value3" value=""/></td>
+        <tr><td><a href="gpa.html">4th SEMESTER</a></td><td> <input type="text" id="value4" name="value4" value=""/></td>
+		<tr><td><a href="gpa.html">5th SEMESTER</a></td><td><input type="text" id="value5" name="value5" value=""/></td>
+        <tr><td><a href="gpa.html">6th SEMESTER</a></td><td><input type="text" id="value6" name="value6" value=""/></td>
+		<tr><td><a href="gpa.html">7th SEMESTER</a></td><td><input type="text" id="value7" name="value7" value=""/></td>
+        <tr><td><a href="gpa.html">8th SEMESTER</a></td><td><input type="text" id="value8" name="value8" value=""/></td>
+		<tr><td colspan=2 align=center><input type="button" name="Sumbit" value="CALCULATE" onclick="javascript:calculate()"/></td></tr>
+        <tr><td colspan=2 align=center>CGPA<input type="text" id="answer" name="answer" value=""/></td></tr>
+		</form>
+		</table>
+		
+		</center>
+  </body>
+</html>
